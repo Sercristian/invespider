@@ -1,0 +1,14 @@
+## 🐬 Instalación de la base de datos
+
+1. Abrí MySQL Workbench y conectate a tu servidor local.
+2. Menú: **File → Open SQL Script**
+3. Abrí el archivo `setup.sql` incluido en este repositorio.
+4. Ejecutá el script con el botón ⚡ (Execute).
+5. Editá `config.php` con tus credenciales:
+
+```php
+define("HOST","localhost");
+define("USER","tu_usuario");
+define("PASSWORD","tu_clave");
+define("DATABASE","arana_db");
+

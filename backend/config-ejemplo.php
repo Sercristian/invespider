@@ -8,7 +8,7 @@
 define("HOST","localhost");
 define("USER","usuario");
 define("PASSWORD","password");
-define("DATABASE","database");
+define("DATABASE","arana_db");
 
 
 ?>
