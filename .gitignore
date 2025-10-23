@@ -1,0 +1,11 @@
+# Archivos sensibles
+config.php
+.env
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+*.bak
+.DS_Store
+.idea/
+.vscode/
