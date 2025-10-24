@@ -28,7 +28,7 @@ class DataBase {
         return $this->objDB;
     }
 
-    // Escape (por si lo necesitas)
+    // Escape
     public function escape($str) {
         return $this->objDB->real_escape_string($str);
     }
