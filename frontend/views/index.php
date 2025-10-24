@@ -1,5 +1,5 @@
 
-  <?php include '../backend/includes/header.inc.php'; ?>
+  <?php include '../../backend/includes/header.inc.php'; ?>
   <main class="flex-grow-1">
 
     <h1 class="mb-4 ms-4 display-6">Bienvenido al centro de investigacion</h1>
@@ -9,21 +9,21 @@
 
   <div class="carousel-inner text-center"> 
     <div class="carousel-item active">
-      <img src="asset/img/viuda-negra.jpg" 
+      <img src="../asset/img/viuda-negra.jpg" 
            class="d-block w-50 mx-auto" 
            style="max-height: 400px; object-fit: cover;" 
            alt="foto1Carrousel">
     </div>
 
     <div class="carousel-item">
-      <img src="asset/img/phoneutria.jpg" 
+      <img src="../asset/img/phoneutria.jpg" 
            class="d-block w-50 mx-auto" 
            style="max-height: 400px; object-fit: cover;"  
            alt="foto2Carrousel">
     </div>
 
     <div class="carousel-item">
-      <img src="asset/img/loxosceles-arana-del-rincon.jpg" 
+      <img src="../asset/img/loxosceles-arana-del-rincon.jpg" 
            class="d-block w-50 mx-auto" 
            style="max-height: 400px; object-fit: cover;"  
            alt="foto3Carrousel">
@@ -46,4 +46,4 @@
   </main>
 
 
-  <?php include '../backend/includes/footer.inc.php'; ?>
+  <?php include '../../backend/includes/footer.inc.php'; ?>
